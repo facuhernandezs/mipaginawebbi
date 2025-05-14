@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
           
           <div className="hidden md:flex">
             <a 
-              href="#demo" 
+              href="#contacto" 
               className="bg-blue-600 hover:bg-blue-700 text-white font-medium px-5 py-2 rounded-lg transition-all shadow-md hover:shadow-lg"
             >
               Solicitar Demo
@@ -107,7 +107,7 @@ const Navbar: React.FC = () => {
               Contacto
             </Link>
             <a 
-              href="#demo" 
+              href="#contacto" 
               className="bg-blue-600 hover:bg-blue-700 text-white font-medium px-4 py-2 rounded-lg transition-all text-center"
               onClick={() => setIsOpen(false)}
             >

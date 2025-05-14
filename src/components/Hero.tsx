@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
               Transforma tus datos en decisiones inteligentes con nuestras soluciones de análisis y visualización. Dashboards personalizados que impulsan el crecimiento de tu negocio.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <a href="#demo" className="bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition-all shadow-md hover:shadow-xl text-center">
+              <a href="#contacto" className="bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition-all shadow-md hover:shadow-xl text-center">
                 Solicitar Demo
               </a>
               <a href="#caracteristicas" className="bg-white hover:bg-gray-50 text-blue-600 font-medium px-6 py-3 rounded-lg border border-blue-200 transition-all shadow-sm hover:shadow-md text-center">

@@ -180,7 +180,7 @@ const ProductShowcase: React.FC = () => {
         
         <div className="flex justify-center mt-12">
           <a 
-            href="#demo" 
+            href="#contacto" 
             className="bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition-all shadow-md hover:shadow-xl"
           >
             Solicitar Demo Personalizada
