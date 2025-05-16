@@ -41,25 +41,28 @@ const Testimonial: React.FC<TestimonialProps> = ({ content, author, position, co
 const Testimonials: React.FC = () => {
   const testimonials = [
     {
-      content: "TODA BI transformó por completo nuestra forma de analizar datos. Sus dashboards personalizados nos permitieron identificar oportunidades que antes pasábamos por alto, aumentando nuestros ingresos en un 23% en solo seis meses.",
+      content: "Antes trabajábamos todo en planillas y no veíamos con claridad qué productos funcionaban mejor. Con los dashboards de TODA BI empezamos a detectar oportunidades que teníamos delante y no estábamos aprovechando. En 6 meses, nuestras ventas crecieron más de un 20%.",
       author: "Ana Martínez",
       position: "Directora de Marketing",
       company: "TechSolutions",
       image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150"
+
     },
     {
-      content: "La implementación fue sorprendentemente rápida y el equipo de soporte es excepcional. Las visualizaciones son intuitivas incluso para usuarios sin experiencia técnica, lo que ha impulsado la adopción en toda nuestra organización.",
+      content: "Lo que más me sorprendió fue lo rápido que pudimos empezar. El equipo de TODA BI nos acompañó desde el día uno y adaptaron todo a nuestro negocio. Hoy cualquier persona del equipo puede entender los reportes, sin depender de alguien técnico.",
       author: "Carlos Ruiz",
-      position: "CIO",
+      position: "Responsable de Tecnología",
       company: "Grupo Financiero GR",
       image: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=150"
+
     },
     {
-      content: "Como startup, necesitábamos una solución escalable que creciera con nosotros. TODA BI no solo cumplió con nuestras expectativas actuales, sino que nos ha proporcionado insights valiosos para nuestro plan de expansión internacional.",
+      content: "Como startup necesitábamos algo simple pero con potencial de crecimiento. TODA BI nos armó una solución liviana, clara y súper útil para nuestro día a día. Hoy seguimos usándola mientras nos expandimos y es clave para tomar decisiones rápidas.",
       author: "Elena Gómez",
-      position: "CEO",
+      position: "Fundadora",
       company: "InnovaHealth",
       image: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=150"
+
     }
   ];
 

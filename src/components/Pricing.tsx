@@ -46,45 +46,44 @@ const PriceCard: React.FC<PriceCardProps> = ({ title, price, description, featur
 const Pricing: React.FC = () => {
   const plans = [
     {
-      title: 'Inicial',
-      price: '€49',
-      description: 'Perfecto para pequeñas empresas y startups.',
+      title: 'Plan Esencial',
+      price: '$100.000',
+      description: 'Ideal para emprendedores o pequeños negocios que quieren empezar a tomar decisiones basadas en datos.',
       features: [
-        'Dashboard básico personalizable',
-        'Hasta 5 usuarios',
-        'Análisis de datos mensual',
-        'Exportación básica de informes',
-        'Soporte por email'
+        'Dashboard básico con métricas clave',
+        'Panel de control de stock o ventas',
+        'Visualización en Power BI o Google Data Studio',
+        'Reportes mensuales con insights',
+        'Integración con Excel o Google Sheets',
+        'Soporte por WhatsApp o email'
       ]
     },
     {
-      title: 'Profesional',
-      price: '€129',
-      description: 'Solución completa para empresas en crecimiento.',
+      title: 'Plan Estratégico',
+      price: '$250.000',
+      description: 'Para negocios que necesitan automatización, reportes avanzados y seguimiento continuo.',
       features: [
-        'Dashboard avanzado personalizable',
-        'Hasta 20 usuarios',
-        'Análisis de datos en tiempo real',
-        'Exportación avanzada de informes',
-        'Integración con otras plataformas',
-        'Soporte prioritario',
-        'Acceso a API'
+        'Dashboard interactivo personalizado',
+        'Alertas automáticas de stock y pricing',
+        'Integración con Mercado Libre o e-commerce propio',
+        'Reportes por categoría, margen y rotación',
+        'Actualización semanal y soporte prioritario'
+
+
+
       ],
       isPopular: true
     },
     {
-      title: 'Empresarial',
-      price: '€299',
-      description: 'Máxima potencia para grandes organizaciones.',
+      title: 'Plan Personalizado',
+      price: 'Consultar',
+      description: 'Para empresas que buscan una solución a medida, adaptada a sus procesos y necesidades específicas.',
       features: [
-        'Dashboard premium totalmente personalizado',
-        'Usuarios ilimitados',
-        'Análisis predictivo avanzado',
-        'Integración total con sistemas existentes',
-        'Consultor dedicado',
-        'Soporte 24/7',
-        'Seguridad y cumplimiento empresarial',
-        'Capacitación personalizada'
+        'Análisis avanzado de datos',
+        'Integración con sistemas ERP o CRM',
+        'Desarrollo de dashboards personalizados',
+        'Consultoría y capacitación continua',
+        'Soporte técnico dedicado'
       ]
     }
   ];
@@ -94,13 +93,13 @@ const Pricing: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <span className="bg-blue-50 text-blue-600 text-sm font-medium px-4 py-1 rounded-full">PRECIOS</span>
-          <h2 className="text-3xl md:text-4xl font-bold mt-4 mb-6 text-gray-900">Planes adaptados a tus necesidades</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mt-4 mb-6 text-gray-900">Planes pensados para pymes reales</h2>
           <p className="text-gray-600 max-w-3xl mx-auto text-lg">
-            Elije el plan que mejor se adapte a las necesidades de tu empresa. Todos los planes incluyen actualizaciones regulares.
+            Elegí el plan que mejor se ajuste a tu nivel de digitalización. Ambos incluyen acompañamiento personalizado.
           </p>
         </div>
-        
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {plans.map((plan, index) => (
             <PriceCard
               key={index}
@@ -112,17 +111,17 @@ const Pricing: React.FC = () => {
             />
           ))}
         </div>
-        
+
         <div className="mt-16 text-center bg-blue-50 rounded-xl p-8 max-w-4xl mx-auto">
-          <h3 className="text-xl font-bold text-gray-900 mb-4">¿Necesitas una solución a medida?</h3>
+          <h3 className="text-xl font-bold text-gray-900 mb-4">¿Querés algo más adaptado a tu negocio?</h3>
           <p className="text-gray-600 mb-6">
-            Desarrollamos soluciones personalizadas para casos de uso específicos. Contáctanos para discutir tus necesidades.
+            Podemos crear un plan a medida según tus procesos, canales de venta y tipo de productos.
           </p>
           <a
             href="#contacto"
             className="inline-block bg-white hover:bg-gray-50 text-blue-600 font-medium px-6 py-3 rounded-lg border border-blue-200 transition-all shadow-sm hover:shadow-md"
           >
-            Contactar para Plan Personalizado
+            Consultar por plan personalizado
           </a>
         </div>
       </div>
